@@ -5,3 +5,9 @@ function willBeUsedByFeature2(){
 }
 
 willBeUsedByFeature2()
+
+function feature3(){
+    willBeUsedByFeature2()
+}
+
+feature3()
